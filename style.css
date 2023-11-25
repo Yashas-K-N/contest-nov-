@@ -5,10 +5,51 @@
 }
 
 .nav,nav{
-     display:inline-block;
+     display:flex;
      
 }
 
 .nav{
-    justify-items:
+    
+    height: 111px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.pav,nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline:20px;
+}
+
+#kr { 
+    font-family: Ruda;
+font-size: 29px;
+font-weight: 700;
+letter-spacing: 0.06em;
+text-align: center;
+margin-left: 50px;
+}
+
+#hd {
+    font-family: Quattrocento;
+font-size: 50px;
+font-weight: 700;
+line-height: 1.5;
+letter-spacing: 0.09em;
+text-align:left;
+margin-left:200px;
+margin-top: 50px;
+    
+}
+
+#hd:nth-child(3) {
+ width: 586px;
+height: 13px;
+top: 533px;
+left: 116px;
+background-color: #F24C4C;
+
+
 }
